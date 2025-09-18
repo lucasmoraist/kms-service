@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kms-service
+secrets:
+  aws:
+    access-key: ${AWS_ACCESS_KEY}
+    secret-key: ${AWS_SECRET_KEY}
+    region: ${AWS_REGION}
+    kms:
+      key-id: ${AWS_KMS_KEY}
